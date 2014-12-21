@@ -1,0 +1,62 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="aplikasi.absensi.penilaian.MainActivity">
+
+	<RelativeLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:paddingBottom="@dimen/activity_vertical_margin"
+	    android:paddingLeft="@dimen/activity_horizontal_margin"
+	    android:paddingRight="@dimen/activity_horizontal_margin"
+	    android:paddingTop="@dimen/activity_vertical_margin">
+	
+	    <Button
+        	android:id="@+id/Button1"
+        	android:layout_width="140dp"
+        	android:layout_height="125dp"
+        	android:layout_alignLeft="@+id/Button3"
+        	android:layout_alignParentLeft="true"
+        	android:layout_alignParentTop="true"
+        	android:text="@string/daftarsiswa" />
+	
+	    <Button
+        	android:id="@+id/Button3"
+        	android:layout_width="140dp"
+        	android:layout_height="125dp"
+        	android:layout_alignParentLeft="true"
+        	android:layout_below="@+id/Button1"
+        	android:text="@string/penilaian" />
+	
+	    <Button
+        	android:id="@+id/Button2"
+        	android:layout_width="140dp"
+        	android:layout_height="125dp"
+        	android:layout_alignBaseline="@+id/Button1"
+        	android:layout_alignBottom="@+id/Button1"
+        	android:layout_alignParentRight="true"
+        	android:text="@string/absensi" />
+	
+	    <Button
+        	android:id="@+id/Button4"
+        	android:layout_width="140dp"
+        	android:layout_height="125dp"
+        	android:layout_alignParentRight="true"
+        	android:layout_below="@+id/Button2"
+        	android:text="@string/help" />
+	
+	    <Button
+        	android:id="@+id/button5"
+        	android:layout_width="140dp"
+        	android:layout_height="125dp"
+        	android:layout_alignLeft="@+id/Button3"
+        	android:layout_alignParentLeft="true"
+        	android:layout_alignParentRight="true"
+        	android:layout_alignRight="@+id/Button4"
+        	android:layout_below="@+id/Button3"
+        	android:text="@string/tentangkami" />
+	
+	</RelativeLayout>
+</ScrollView>
