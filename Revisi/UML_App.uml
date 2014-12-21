@@ -1363,8 +1363,8 @@
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
 <XPD:ATTR name="Left" type="integer">88</XPD:ATTR>
 <XPD:ATTR name="Top" type="integer">176</XPD:ATTR>
-<XPD:ATTR name="Width" type="integer">569</XPD:ATTR>
-<XPD:ATTR name="Height" type="integer">265</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">553</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">225</XPD:ATTR>
 <XPD:REF name="Model">gVdZTLLv9k65QjbkosGUKAAA</XPD:REF>
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="LHhwYsVbGEG9qZuSq2fgAwAA">
 <XPD:OBJ name="NameLabel" type="LabelView" guid="kKP4aFXN3UKyUQMZiVF57AAA">
@@ -3748,7 +3748,7 @@
 <XPD:REF name="Incomings[1]">TGUUXLI4GUWTJJWgvNqDBAAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="Subvertices[7]" type="UMLActionState" guid="3HZ1QkhnVkOxWMzbh+hsSgAA">
-<XPD:ATTR name="Name" type="string">Mehapus data</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">Menghapus data</XPD:ATTR>
 <XPD:REF name="ContainerState">PfefQ8np3EaqY0GOLqadQgAA</XPD:REF>
 <XPD:ATTR name="#Views" type="integer">1</XPD:ATTR>
 <XPD:REF name="Views[0]">ZdyGNjidd02PsaNT09IKqgAA</XPD:REF>
@@ -3828,7 +3828,7 @@
 <XPD:ATTR name="Left" type="integer">136</XPD:ATTR>
 <XPD:ATTR name="Top" type="integer">44</XPD:ATTR>
 <XPD:ATTR name="Width" type="integer">157</XPD:ATTR>
-<XPD:ATTR name="Height" type="integer">500</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">397</XPD:ATTR>
 <XPD:REF name="Model">qX6fUAkyAkmmvjhDZdFi0gAA</XPD:REF>
 <XPD:OBJ name="NameLabel" type="LabelView" guid="EKIQaB2Bek+o53vF8PLTIgAA">
 <XPD:ATTR name="Text" type="string">Siswa</XPD:ATTR>
@@ -3840,7 +3840,7 @@
 <XPD:ATTR name="Left" type="integer">292</XPD:ATTR>
 <XPD:ATTR name="Top" type="integer">44</XPD:ATTR>
 <XPD:ATTR name="Width" type="integer">173</XPD:ATTR>
-<XPD:ATTR name="Height" type="integer">500</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">401</XPD:ATTR>
 <XPD:REF name="Model">eJsPaBofAkmFg6PrPvmYPgAA</XPD:REF>
 <XPD:OBJ name="NameLabel" type="LabelView" guid="lv5foHXowkqkO4DSJxQDNAAA">
 <XPD:ATTR name="Text" type="string">DaftarSiswa</XPD:ATTR>
@@ -3852,7 +3852,7 @@
 <XPD:ATTR name="Left" type="integer">464</XPD:ATTR>
 <XPD:ATTR name="Top" type="integer">44</XPD:ATTR>
 <XPD:ATTR name="Width" type="integer">165</XPD:ATTR>
-<XPD:ATTR name="Height" type="integer">500</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">401</XPD:ATTR>
 <XPD:REF name="Model">GW8OXgFezkWbQPkaDT3ldQAA</XPD:REF>
 <XPD:OBJ name="NameLabel" type="LabelView" guid="rjGzsagIE0GeGu4myILYMwAA">
 <XPD:ATTR name="Text" type="string">getKehadiran()</XPD:ATTR>
@@ -3864,7 +3864,7 @@
 <XPD:ATTR name="Left" type="integer">628</XPD:ATTR>
 <XPD:ATTR name="Top" type="integer">44</XPD:ATTR>
 <XPD:ATTR name="Width" type="integer">165</XPD:ATTR>
-<XPD:ATTR name="Height" type="integer">500</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">401</XPD:ATTR>
 <XPD:REF name="Model">Vg/HLhWO9EipRb7ualDCUwAA</XPD:REF>
 <XPD:OBJ name="NameLabel" type="LabelView" guid="45Nx3LdYOUKZiGmfKZpLLQAA">
 <XPD:ATTR name="Text" type="string">Penilaian</XPD:ATTR>
@@ -4088,12 +4088,12 @@
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
 <XPD:ATTR name="Left" type="integer">340</XPD:ATTR>
 <XPD:ATTR name="Top" type="integer">232</XPD:ATTR>
-<XPD:ATTR name="Width" type="integer">90</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">101</XPD:ATTR>
 <XPD:ATTR name="Height" type="integer">23</XPD:ATTR>
 <XPD:REF name="Model">3HZ1QkhnVkOxWMzbh+hsSgAA</XPD:REF>
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="WxH6f29L+kySiZEoCuEe6QAA">
 <XPD:OBJ name="NameLabel" type="LabelView" guid="YkVA7yBe30G4Sto+k0htaQAA">
-<XPD:ATTR name="Text" type="string">Mehapus data</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">Menghapus data</XPD:ATTR>
 </XPD:OBJ>
 <XPD:OBJ name="StereotypeLabel" type="LabelView" guid="Fhn6VJJ1p0qN+dF2ShcBTQAA">
 <XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
@@ -4106,7 +4106,7 @@
 <XPD:OBJ name="OwnedViews[15]" type="UMLTransitionView" guid="PK8IAkgRrUSEO+CojRvtrwAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
-<XPD:ATTR name="Points" type="Points">384,204;384,232</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">385,204;389,232</XPD:ATTR>
 <XPD:REF name="Model">kO9Zj9Kch0ynwygsS8AOZwAA</XPD:REF>
 <XPD:REF name="Head">ZdyGNjidd02PsaNT09IKqgAA</XPD:REF>
 <XPD:REF name="Tail">bAObiMEivk+YuPFu8TYe8QAA</XPD:REF>
