@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView01"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="aplikasi.absensi.penilaian.MainActivity" >
+
+	<RelativeLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="450dp" >
+	
+		<TextView
+    		android:id="@+id/textView1"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_alignParentTop="true"
+        	android:layout_centerHorizontal="true"
+        	android:text="@string/daftarsiswa"
+        	android:textAppearance="?android:attr/textAppearanceLarge" />
+		
+		<EditText
+       		android:id="@+id/editText1"
+       		android:layout_width="wrap_content"
+       		android:layout_height="wrap_content"
+       		android:layout_alignParentRight="true"
+       		android:layout_below="@+id/textView1"
+       		android:layout_toRightOf="@+id/textView4"
+       		android:ems="10"
+       		android:hint="@string/kdSiswa"
+       		android:inputType="textPersonName" />
+		
+		<TextView
+    		android:id="@+id/textView2"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_alignBaseline="@+id/editText1"
+        	android:layout_alignBottom="@+id/editText1"
+        	android:layout_alignParentLeft="true"
+        	android:text="@string/kdSiswa"
+	    	android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+	    <EditText
+			android:id="@+id/editText2"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_alignLeft="@+id/editText1"
+        	android:layout_below="@+id/editText1"
+        	android:ems="10"
+        	android:hint="@string/namaSiswa"
+        	android:inputType="textPersonName" />
+	    
+		<TextView
+       		android:id="@+id/textView3"
+       		android:layout_width="wrap_content"
+       		android:layout_height="wrap_content"
+       		android:layout_alignBaseline="@+id/editText2"
+       		android:layout_alignBottom="@+id/editText2"
+       		android:layout_alignParentLeft="true"
+       		android:text="@string/namaSiswa"
+       		android:textAppearance="?android:attr/textAppearanceMedium" />
+		
+		<TextView
+       		android:id="@+id/textView4"
+       		android:layout_width="wrap_content"
+       		android:layout_height="wrap_content"
+       		android:layout_alignParentLeft="true"
+       		android:layout_below="@+id/editText2"
+       		android:text="@string/jkelamin"
+       		android:textAppearance="?android:attr/textAppearanceMedium" />
+		
+		<Button
+	    	android:id="@+id/Button2"
+       		android:layout_width="140dp"
+       		android:layout_height="wrap_content"
+       		android:layout_alignParentLeft="true"
+       		android:layout_below="@+id/radioButton1"
+       		android:text="@string/smpn" />
+		
+		<Button
+       		android:id="@+id/Button3"
+       		android:layout_width="140dp"
+   	    	android:layout_height="wrap_content"
+        	android:layout_alignParentRight="true"
+       		android:layout_below="@+id/radioButton1"
+       		android:text="@string/hps" />
+	
+    	<EditText
+    	   	android:id="@+id/editText3"
+	       	android:layout_width="wrap_content"
+    	   	android:layout_height="wrap_content"
+       		android:layout_alignParentLeft="true"
+       		android:layout_alignParentRight="true"
+       		android:layout_below="@+id/Button2"
+       		android:ems="10"
+       		android:hint="@string/crkdornm"
+       		android:inputType="textPersonName" >
+   		</EditText>
+	
+		<RadioButton
+    		android:id="@+id/radioButton1"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_below="@+id/textView4"
+        	android:layout_toRightOf="@+id/textView3"
+        	android:text="@string/laki" />
+		
+		<RadioButton
+       		android:id="@+id/radioButton2"
+       		android:layout_width="wrap_content"
+       		android:layout_height="wrap_content"
+       		android:layout_alignBaseline="@+id/radioButton1"
+       		android:layout_toRightOf="@+id/radioButton1"
+       		android:text="@string/perempuan" />
+
+		<ListView
+		    android:id="@+id/listView1"
+		    android:layout_width="match_parent"
+		    android:layout_height="175dp"
+		    android:layout_alignParentLeft="true"
+		    android:layout_alignParentRight="true"
+		    android:layout_below="@+id/editText3"
+		    android:layout_centerHorizontal="true" >
+
+		</ListView>
+
+	</RelativeLayout>
+</ScrollView>
