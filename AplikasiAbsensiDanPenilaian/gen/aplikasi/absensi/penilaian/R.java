@@ -1642,8 +1642,14 @@ containing a value of this type.
         public static final int Button3=0x7f05004c;
         public static final int Button4=0x7f05004e;
         public static final int LVjenisKelamin=0x7f050059;
+        public static final int LVkehadiran=0x7f05005a;
         public static final int LVkodeSiswa=0x7f050058;
         public static final int LVnamaSiswa=0x7f050057;
+        public static final int LVnilaiakhir=0x7f05005e;
+        public static final int LVtugas=0x7f05005b;
+        public static final int LVuas=0x7f05005d;
+        public static final int LVuts=0x7f05005c;
+        public static final int ListViewNilai=0x7f05005f;
         public static final int ScrollView01=0x7f05004b;
         public static final int action_bar=0x7f050033;
         public static final int action_bar_activity_content=0x7f05001a;
@@ -1658,7 +1664,7 @@ containing a value of this type.
         public static final int action_mode_bar=0x7f050030;
         public static final int action_mode_bar_stub=0x7f05002f;
         public static final int action_mode_close_button=0x7f050022;
-        public static final int action_settings=0x7f05005c;
+        public static final int action_settings=0x7f050062;
         public static final int activity_chooser_view_content=0x7f050023;
         public static final int always=0x7f05000d;
         public static final int beginning=0x7f050012;
@@ -1671,10 +1677,10 @@ containing a value of this type.
         public static final int dialog=0x7f050010;
         public static final int disableHome=0x7f05000a;
         public static final int dropdown=0x7f050011;
-        public static final int editText1=0x7f050050;
-        public static final int editText2=0x7f050051;
+        public static final int editText1=0x7f050051;
+        public static final int editText2=0x7f050052;
         public static final int editText3=0x7f050054;
-        public static final int editText4=0x7f05005a;
+        public static final int editText4=0x7f050060;
         public static final int edit_query=0x7f050035;
         public static final int end=0x7f050014;
         public static final int expand_activities_button=0x7f050024;
@@ -1715,9 +1721,9 @@ containing a value of this type.
         public static final int submit_area=0x7f05003e;
         public static final int tabMode=0x7f050003;
         public static final int textView1=0x7f050041;
-        public static final int textView10=0x7f05005b;
+        public static final int textView10=0x7f050061;
         public static final int textView2=0x7f05004a;
-        public static final int textView3=0x7f050052;
+        public static final int textView3=0x7f050050;
         public static final int textView4=0x7f050045;
         public static final int textView5=0x7f050044;
         public static final int textView6=0x7f050046;
@@ -1782,10 +1788,14 @@ containing a value of this type.
         public static final int abc_simple_dropdown_hint=0x7f030016;
         public static final int absensi=0x7f030017;
         public static final int activity_main=0x7f030018;
-        public static final int daftarsiswa=0x7f030019;
-        public static final int listviewsiswa=0x7f03001a;
-        public static final int penilaian=0x7f03001b;
-        public static final int support_simple_spinner_dropdown_item=0x7f03001c;
+        public static final int bantuan=0x7f030019;
+        public static final int daftarsiswa=0x7f03001a;
+        public static final int listviewnilai=0x7f03001b;
+        public static final int listviewsiswa=0x7f03001c;
+        public static final int nilai=0x7f03001d;
+        public static final int penilaian=0x7f03001e;
+        public static final int support_simple_spinner_dropdown_item=0x7f03001f;
+        public static final int tentang=0x7f030020;
     }
     public static final class menu {
         public static final int main=0x7f0c0000;
@@ -1847,12 +1857,17 @@ containing a value of this type.
         public static final int absensi=0x7f0a0012;
         public static final int action_settings=0x7f0a0010;
         public static final int app_name=0x7f0a000f;
+        public static final int bantuan1=0x7f0a0025;
+        public static final int bantuan2=0x7f0a0026;
+        public static final int bantuan3=0x7f0a0027;
+        public static final int bantuan4=0x7f0a0028;
         public static final int cari=0x7f0a001e;
         public static final int crkdornm=0x7f0a001f;
         public static final int daftarsiswa=0x7f0a0011;
         public static final int edit=0x7f0a001c;
         public static final int help=0x7f0a0014;
         public static final int hps=0x7f0a001d;
+        public static final int isitentang=0x7f0a0029;
         public static final int jkelamin=0x7f0a0018;
         public static final int kdSiswa=0x7f0a0016;
         public static final int khdrn=0x7f0a0020;
