@@ -17,9 +17,7 @@ public class MainActivity extends ActionBarActivity {
 	private DB_Function akses_DB;
 	private DialogBox tampilkan;
 	private Context konteks;
-	Button daftarSiswa;
-	Button absensi;
-	Button penilaian;
+	private Button daftarSiswa,absensi,penilaian, bantuan, tentang;
 	ContentValues mengedit;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -44,6 +42,8 @@ public class MainActivity extends ActionBarActivity {
     		tampilkan.dialogBoxOke(konteks, sqle.toString());
     	}
     	cekdaftarSiswa();
+    	setTombolBantuan();
+    	setTombolTentang();
 	}
 	
 	@Override
@@ -120,6 +120,29 @@ public class MainActivity extends ActionBarActivity {
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
 				actionButton(v, Penilaian.class);
+			}
+		});
+	}
+	
+	private void setTombolBantuan(){
+		bantuan = (Button)findViewById(R.id.Button4);
+		bantuan.setOnClickListener(new View.OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				actionButton(v, Bantuan.class);
+			}
+		});
+	}
+	private void setTombolTentang(){
+		tentang = (Button)findViewById(R.id.button5);
+		tentang.setOnClickListener(new View.OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				actionButton(v, Tentang.class);
 			}
 		});
 	}

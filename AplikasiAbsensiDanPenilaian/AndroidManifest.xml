@@ -26,7 +26,8 @@
         <activity android:name=".Absensi"></activity>
         <activity android:name=".Penilaian"></activity>
         <activity android:name=".Bantuan"></activity>
-        <activity android:name=".TentangKami"></activity>
+        <activity android:name=".Tentang"></activity>
+        <activity android:name=".LihatNilai"></activity>
     </application>
 
 </manifest>
