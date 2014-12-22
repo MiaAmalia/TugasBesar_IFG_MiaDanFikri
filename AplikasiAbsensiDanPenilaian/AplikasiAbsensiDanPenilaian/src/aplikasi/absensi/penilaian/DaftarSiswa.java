@@ -151,10 +151,7 @@ public class DaftarSiswa extends Activity{
 				if(kdsiswa.getText().toString().equalsIgnoreCase("")|| nmsiswa.getText().toString().equalsIgnoreCase("")||(laki.isChecked()==false && perempuan.isChecked()==false)){
 					tampilkan.dialogBoxOke(konteks, "Isi semua data terlebih dahulu");
 				}else{
-<<<<<<< HEAD
-=======
 					
->>>>>>> 13c68449271ccc99e1f0c3e1ab769fbc2ce14a7f
 					switch(smpnoredit){
 					case 0:
 						akses_DB.simpanData("insert into daftarSiswa(_id,namaSiswa,jKelamin) values('"+kdsiswa.getText().toString()+"','"+nmsiswa.getText().toString()+"','"+jKelamin+"')");
