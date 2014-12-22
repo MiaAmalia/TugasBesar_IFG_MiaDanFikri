@@ -33,6 +33,4 @@ public class AdapterListViewDaftarSiswa extends ArrayAdapter<Siswa> {
         LVjenisKelamin.setText(itemArrayList.get(position).getJK());
         return rowView;
     }
-
-
 }
